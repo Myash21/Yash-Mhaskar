@@ -9,8 +9,8 @@ export const DATA = {
   locationLink: "https://maps.app.goo.gl/8YTbFE2iRWybqwhr9",
   description: "Python Developer & Data Analyst",
   summary:
-    "Currently in my Third Year of my Artificial Intelligence & Data Science Degree @ DYPCOE, Akurdi",
-  avatarUrl: "/me.png",
+    "Currently in my Third Year of my Artificial Intelligence & Data Science Degree @ DYPCOE, Akurdi. I love working with data and creating innovative solutions through data analysis, machine learning, and AI to solve complex problems and drive technological advancements.",
+  avatarUrl: "/",
   skills: [
     "Python",
     "DSA",
@@ -24,7 +24,7 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     {
-      href: "https://github.com/capybara-brain346/my-resume/blob/main/Piyush%20Choudhari%20Resume.pdf",
+      href: "https://github.com/Myash21/My-Resume/blob/main/Yash%20Mhaskar%20Resume.pdf",
       icon: NotebookIcon,
       label: "Resume",
     },
@@ -35,31 +35,25 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/capybara-brain346",
+        url: "https://github.com/Myash21",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/piyush-choudhari",
+        url: "www.linkedin.com/in/yash-mhaskar-4bb181284",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://twitter.com/PiyushChou56092",
+        url: "https://x.com/Myash2004",
         icon: Icons.x,
 
         navbar: true,
       },
-      // Youtube: {
-      //   name: "Youtube",
-      //   url: "https://dub.sh/dillion-youtube",
-      //   icon: Icons.youtube,
-      //   navbar: true,
-      // },
       email: {
         name: "Send Email",
         url: "#",
@@ -69,81 +63,6 @@ export const DATA = {
       },
     },
   },
-
-  work: [
-    {
-      company: "Atomic Finance",
-      href: "https://atomic.finance",
-      badges: [],
-      location: "Remote",
-      title: "Bitcoin Protocol Engineer",
-      logoUrl: "/atomic.png",
-      start: "May 2021",
-      end: "Oct 2022",
-      description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
-    },
-    {
-      company: "Shopify",
-      badges: [],
-      href: "https://shopify.com",
-      location: "Remote",
-      title: "Software Engineer",
-      logoUrl: "/shopify.svg",
-      start: "January 2021",
-      end: "April 2021",
-      description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
-    },
-    {
-      company: "Nvidia",
-      href: "https://nvidia.com/",
-      badges: [],
-      location: "Santa Clara, CA",
-      title: "Software Engineer",
-      logoUrl: "/nvidia.png",
-      start: "January 2020",
-      end: "April 2020",
-      description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
-    },
-    {
-      company: "Splunk",
-      href: "https://splunk.com",
-      badges: [],
-      location: "San Jose, CA",
-      title: "Software Engineer",
-      logoUrl: "/splunk.svg",
-      start: "January 2019",
-      end: "April 2019",
-      description:
-        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
-    },
-    {
-      company: "Lime",
-      href: "https://li.me/",
-      badges: [],
-      location: "San Francisco, CA",
-      title: "Software Engineer",
-      logoUrl: "/lime.svg",
-      start: "January 2018",
-      end: "April 2018",
-      description:
-        "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.",
-    },
-    {
-      company: "Mitre Media",
-      href: "https://mitremedia.com/",
-      badges: [],
-      location: "Toronto, ON",
-      title: "Software Engineer",
-      logoUrl: "/mitremedia.png",
-      start: "May 2017",
-      end: "August 2017",
-      description:
-        "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
-    },
-  ],
   education: [
     {
       school: "D.Y.Patil College of Engineering, Akurdi",
@@ -154,61 +73,75 @@ export const DATA = {
       end: "Present",
     },
     {
-      school: "Elpro International School",
-      href: "https://elproschools.edu.in/",
+      school: "Fergusson College",
+      href: "https://www.fergusson.edu/departments/juniorcollege",
+      degree: "Junior College",
+      logoUrl: "/buildspace.jpg",
+      start: "2020",
+      end: "2022",
+    },
+    {
+      school: "Dr. Sarvepalli Radhakrishnan Vidyalaya",
+      href: "https://www.dsrvmalad.org/",
       degree: "High School",
       logoUrl: "/buildspace.jpg",
-      start: "2012",
-      end: "2022",
+      start: "2009",
+      end: "2020",
     },
   ],
   projects: [
     {
-      title: "RecycleNet18",
-      href: "https://github.com/capybara-brain346/RecycleNet18",
+      title: "Agrimate",
+      href: "https://aaryanpalve5.github.io/agrimate/",
       dates: "Jun 2024",
       active: true,
       description:
-        "RecycleNet is a deep learning-based project designed to classify images of recyclable items into 30 distinct categories. Alongside the classification model, a chatbot is integrated to assist users in understanding how to recycle the identified items properly. The goal is to promote effective recycling practices and reduce environmental waste.",
+        "Agrimate is an AI assistant for agriculture developed as collaborative project, it utilises time series and machine learning techniques for rainfall prediction and crop disease management as well as a deep learning model trained to correctly classify and predict 4 types of rice diseases from their images. Also contains user authentication system using Flask.",
       technologies: [
         "Python",
         "Pytorch",
-        "Langchain",
-        "Ollama - Llama2-7B",
+        "ARIMA",
+        "Flask",
         "Streamlit",
         "Github Actions",
       ],
       links: [
         {
           type: "Repository",
-          href: "https://github.com/capybara-brain346/RecycleNet18",
+          href: "https://github.com/Myash21/Agrimate",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Live",
+          href: "https://aaryanpalve5.github.io/agrimate/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/recyclenet.png",
+      image: "/Screenshot 2024-06-09 063030.png",
     },
     {
-      title: "Pokedex API",
-      href: "https://github.com/capybara-brain346/pokedex-api",
+      title: "RicePathBot",
+      href: "https://github.com/Myash21/Agri-mate.github.io",
       dates: "August 2024 - Present",
       active: true,
-      description: "A Restful api for retrieving data regarding pokemons.",
+      description: "Taking inspiration from the project Agrimate, added features such as chatbot made by fine-tuning an LLM on large amounts of data collected from different sources regarding various types of crop disease espescially for rice as well as creating a Retrieval-Augmented Generation model to extract important information about various government policies related to agriculture. Work in progess...",
       technologies: [
         "Python",
-        "FastAPI",
-        "Sqlite3",
-        "SQL",
-        "Postman",
-        "Githun Actions",
+        "Flask",
+        "Gradio",
+        "NLTK",
+        "Langchain",
+        "Ollama",
+        "Github Actions",
       ],
       links: [
         {
           type: "Repository",
-          href: "https://github.com/capybara-brain346/pokedex-api",
+          href: "https://github.com/Myash21/Agri-mate.github.io",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/pysduck.jpg",
+      image: "/detail-rice-plant-sunset-valencia-with-plantation-out-focus-rice-grains-plant-seed_181624-25838.avif",
     },
     {
       title: "Intel AI Students Club Website",
@@ -231,24 +164,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/iasc_website.png",
-    },
-    {
-      title: "Mopi",
-      href: "https://github.com/capybara-brain346/mopi",
-      dates: "June 2024 - July 2024",
-      active: true,
-      description:
-        "A Restful api developed to retrieve information about various movies. Written in GoLang",
-      technologies: ["Go", "Sqlite3", "go-chi"],
-      links: [
-        {
-          type: "Repository",
-          href: "https://github.com/capybara-brain346/mopi",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/brucelee.jpg",
+      image: "/Screenshot 2024-09-15 095234.png",
     },
   ],
   hackathons: [
