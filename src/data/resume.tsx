@@ -134,13 +134,13 @@ export const DATA = {
         "Ollama",
         "Github Actions",
       ],
-      /*links: [
+      links: [
         {
           type: "Repository",
-          href: "https://github.com/Myash21/Agri-mate.github.io",
+          href: "/",
           icon: <Icons.globe className="size-3" />,
         },
-      ],*/
+      ],
       image: "/detail-rice-plant-sunset-valencia-with-plantation-out-focus-rice-grains-plant-seed_181624-25838.avif",
     },
     {
