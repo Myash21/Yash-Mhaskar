@@ -121,7 +121,7 @@ export const DATA = {
     },
     {
       title: "RicePathBot",
-      href: "https://github.com/Myash21/Agri-mate.github.io",
+      href: "/",
       dates: "August 2024 - Present",
       active: true,
       description: "Taking inspiration from the project Agrimate, added features such as chatbot made by fine-tuning an LLM on large amounts of data collected from different sources regarding various types of crop disease espescially for rice as well as creating a Retrieval-Augmented Generation model to extract important information about various government policies related to agriculture. Work in progess...",
@@ -134,13 +134,13 @@ export const DATA = {
         "Ollama",
         "Github Actions",
       ],
-      links: [
+      /*links: [
         {
           type: "Repository",
           href: "https://github.com/Myash21/Agri-mate.github.io",
           icon: <Icons.globe className="size-3" />,
         },
-      ],
+      ],*/
       image: "/detail-rice-plant-sunset-valencia-with-plantation-out-focus-rice-grains-plant-seed_181624-25838.avif",
     },
     {

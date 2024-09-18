@@ -177,6 +177,30 @@ export default function Page() {
           </BlurFade>
         </div>
       </section>
+      <section id="publication">
+        <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
+          <BlurFade delay={BLUR_FADE_DELAY * 16}>
+            <div className="space-y-3">
+              <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                Publications
+              </div>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                Check out my articles
+              </h2>
+              <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                Check out{" "}
+                <Link
+                  href={"https://medium.com/@yashmhaskar21"}
+                  className="text-blue-500 hover:underline"
+                >
+                  my article links
+                </Link>{" "}
+                where I regularly write articles on insightful topics.
+              </p>
+            </div>
+          </BlurFade>
+        </div>
+      </section>
       <section id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
